@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Webgriffe_Cms>
+            <version>1.0.0</version>
+        </Webgriffe_Cms>
+    </modules>
+    <global>
+        <models>
+            <webgriffe_cms>
+                <class>Webgriffe_Cms_Model</class>
+                <resourceModel>webgriffe_cms_resource</resourceModel>
+            </webgriffe_cms>
+            <webgriffe_cms_resource>
+                <class>Webgriffe_Cms_Model_Resource</class>
+            </webgriffe_cms_resource>
+        </models>
+    </global>
+</config>

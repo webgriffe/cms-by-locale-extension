@@ -1,0 +1,12 @@
+{
+    "name": "webgriffe/cms-by-locale-extension",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+    "description":"Magento Cms By Locale Extension",
+    "authors":[
+        {
+            "name":"Webgriffe Srl",
+            "email":"support@webgriffe.com"
+        }
+    ]
+}
