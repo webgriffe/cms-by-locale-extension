@@ -1,0 +1,9 @@
+db_host=localhost
+db_user=root
+db_pass=p4ssw0rd
+db_name=bnl_epositivity_ext
+phpunit_filter=Webgriffe_Cms
+base_url=http://cms-by-locale-extension.dev/
+magento_relative_dir=public
+ecomdev_phpunit_branch=dev
+install_sample_data=no

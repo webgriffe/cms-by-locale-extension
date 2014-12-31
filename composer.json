@@ -8,5 +8,18 @@
             "name":"Webgriffe Srl",
             "email":"support@webgriffe.com"
         }
+    ],
+    "require-dev": {
+        "webgriffe/magento_ant_build": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:webgriffe/magento_ant_build.git"
+        }
     ]
 }

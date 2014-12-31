@@ -1,1 +1,7 @@
 /.idea/
+/.modman/
+/build.xml
+/vendor/
+/composer.lock
+/default.properties
+/magento/
