@@ -6,7 +6,7 @@
  * Time: 12:47
  */
 
-class Webgriffe_Cms_Model_Entity_Setup extends Mage_Core_Model_Resource_Setup
+class Webgriffe_Cms_Model_Setup extends Mage_Core_Model_Resource_Setup
 {
     public function generateCmsPage($urlKey, $content)
     {

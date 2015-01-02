@@ -16,4 +16,12 @@
             </webgriffe_cms_resource>
         </models>
     </global>
+
+    <phpunit>
+        <suite>
+            <modules>
+                <Webgriffe_Cms/>
+            </modules>
+        </suite>
+    </phpunit>
 </config>

@@ -1,0 +1,37 @@
+scope:
+  website: # Initialize websites
+    - website_id: 1
+      code: enwebsite
+      name: EN Website
+      default_group_id: 1
+    - website_id: 2
+      code: itwebsite
+      name: IT Website
+      default_group_id: 2
+  group: # Initializes store groups
+    - group_id: 1
+      website_id: 1
+      name: EN Store Group
+      default_store_id: 1
+      root_category_id: 2 # Default Category
+    - group_id: 2
+      website_id: 2
+      name: IT Store Group
+      default_store_id: 2
+      root_category_id: 2 # Default Category
+  store: # Initializes store views
+    - store_id: 1
+      website_id: 1
+      group_id: 1
+      code: en
+      name: EN Store
+      is_active: 1
+    - store_id: 2
+      website_id: 2
+      group_id: 2
+      code: it
+      name: IT Store
+      is_active: 1
+config:
+  stores/en/general/locale/code: en_GB
+  stores/it/general/locale/code: it_IT
